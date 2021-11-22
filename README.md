@@ -18,8 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+~~~
+a=int(input("Enter the first variable:"))
+b=int(input("Enter the second variable:"))
+print("Before swapping : \na=",a,"\nb=",b)
+t=b
+b=a
+a=t
+print("After swapping : \na=",a,"\nb=",b)
+~~~
+## OUTPUT:
+![GitHub Logo](swap.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
